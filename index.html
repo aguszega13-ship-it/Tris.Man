@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CV – Mahasiswa Manajemen Informasi Kesehatan</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="wrap">
+      <article class="card">
+        <!-- Foto -->
+        <aside class="left">
+          <div class="avatar">
+            <img src="img/Trisman.jpg" alt="Foto Profil" />
+          </div>
+
+          <div class="identity">
+            <div class="name">Agus Trisman Zega</div>
+            <div class="role">Mahasiswa Manajemen Informasi Kesehatan</div>
+          </div>
+
+          <div class="btn-group">
+            <button class="btn primary" id="btn-download">Download CV</button>
+            <button class="btn" id="btn-portfolio">Portofolio</button>
+            <button class="btn ghost" id="btn-contact">Kontak</button>
+          </div>
+        </aside>
+
+        <!-- Isi CV -->
+        <section class="right">
+          <div class="headline">
+            <h1>Ringkasan Profesional</h1>
+            <div class="contact">Jakarta · agustrismanzega@gmail.com · 08222-7363-7000</div>
+          </div>
+
+          <div class="section">
+            <h3>Profil Singkat</h3>
+            <p class="meta">
+              Saya lulusan D-III Perekam dan Informasi Kesehatan di Universitas Imelda Medan tahun 2022. Saat ini masih aktif bekerja dan mencari pengalaman untuk meningkatkan pengetahuan mengenai perkembangan RME.
+              Saya memiliki motivasi diri yang sangat baik untuk  bekerja dalam tim maupun individu,
+              senang mempelajari hal baru dan berusaha mencapai mimpi yang tertunda.
+            </p>
+          </div>
+
+          <div class="section">
+            <h3>Keahlian Utama</h3>
+            <div class="skills">
+              <span class="skill">Kodifikasi </span>
+              <span class="skill">Analisi Mutu </span>
+              <span class="skill">Manajemen Data Kesehatan</span>
+              <span class="skill">Microsoft Power Point</span>
+              <span class="skill">Microsoft Excel</span>
+              <span class="skill">Microsoft Word</span>
+              <span class="skill">Pengarsipan & Filling</span>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Pengalaman / Praktik</h3>
+            <div class="timeline">
+              <div class="item">
+                <div class="year">2025-Sekarang</div>
+                <div class="desc">
+                  <strong>Staff Rekam Medis</strong> · RSUD Pasar Rebo Jakarta
+                  Melakukan Koding Untuk Klaim JKN, Membantu Pendaftaran pasien 
+                </div>
+              </div>
+              <div class="item">
+                <div class="year">2023-2025</div>
+                <div class="desc">
+                  <strong>Asisten Pengolahan Data</strong> · Ciputra Hospital Jakarta melakukan pengelolaan Rekam Medis : assembling, Filling, distribusi, Pelaporan, analisis kuantitatif,
+                  Kodifikasi. Melakukan Proses Pelepasan Informasi.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Pendidikan</h3>
+            <div class="timeline">
+              <div class="item">
+                <div class="year">2025 – Sekarang</div>
+                <div class="desc"><strong>D3 Perekam dan Informasi Kesehatan</strong></div>
+              </div>
+            </div>
+          </div>
+
+          <footer>Institut Kesehatan Deli Husada @2025</footer>
+        </section>
+      </article>
+    </main>
+
+    <script>
+      document.getElementById("btn-download").onclick = () => window.print();
+      document.getElementById("btn-portfolio").onclick = () => window.open("#", "_blank");
+      document.getElementById("btn-contact").onclick = () => (window.location.href = "mailto:email@example.com");
+    </script>
+  </body>
+</html>
